@@ -1,7 +1,22 @@
 version: 2
 updates:
+
 - package-ecosystem: npm
-  directory: "/"
+  directory: "/apps/app1"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+
+- package-ecosystem: npm
+  directory: "/apps/app2"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+
+- package-ecosystem: npm
+  directory: "/apps/app3"
   schedule:
     interval: daily
     time: "04:00"

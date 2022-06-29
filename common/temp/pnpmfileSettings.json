@@ -1,0 +1,6 @@
+{
+  "allPreferredVersions": {},
+  "allowedAlternativeVersions": {},
+  "semverPath": "/home/nacho/.nvm/versions/node/v16.15.1/lib/node_modules/@microsoft/rush/node_modules/semver/index.js",
+  "userPnpmfilePath": "/home/nacho/Projects/rush-dependabot-test/common/config/rush/.pnpmfile.cjs"
+}

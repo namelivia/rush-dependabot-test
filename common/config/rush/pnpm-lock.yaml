@@ -12,10 +12,17 @@ dependencies:
 
 packages:
 
+  /lodash/0.1.0:
+    resolution: {integrity: sha512-ufIfwX7g5obXKaJhzbnAJBNf5Idxqty+AHaNadWFxtNKjGmF/ZO8ptSEjQRQRymBPZtLa0NV9sbrsH87Ae2R1A==}
+    engines: {'0': node, '1': rhino}
+    dev: false
+
   file:projects/app1.tgz:
-    resolution: {integrity: sha512-US2DXJMqGkU8LNR/Y6HTnU4+r3+PlTa/D4ZRG/NgOVPVyFU1laHzjBgQWwVvycNmVC9Rztpdpkn/LI3kMH4IbQ==, tarball: file:projects/app1.tgz}
+    resolution: {integrity: sha512-azB4w3zlePWATbngHIKhlCgFRxm/nno0eZO3aBCHLCC+yKC1IzG5r0j8mR/pKUObQSfxlIhPuqO+5OlO+Orndg==, tarball: file:projects/app1.tgz}
     name: '@rush-temp/app1'
     version: 0.0.0
+    dependencies:
+      lodash: 0.1.0
     dev: false
 
   file:projects/app2.tgz:

@@ -2,6 +2,5 @@
   "name": "app1",
   "description": "",
   "version": "0.1.0",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {"lodash":"0.1.0"}
 }

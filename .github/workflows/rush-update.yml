@@ -28,6 +28,7 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           author_name: Example
           author_email: mail@example.com
           message: 'Rush update'

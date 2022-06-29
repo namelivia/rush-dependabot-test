@@ -21,8 +21,5 @@ jobs:
       - name: Rush CLI
         run: npm install -g @microsoft/rush@5.50.0
 
-     #- name: Rush Install
-     #  uses: advancedcsg-open/actions-rush@v1.4.5
-
-      - name: Rush Build
-        run: rush build
+      - name: Rush Update
+        run: rush update

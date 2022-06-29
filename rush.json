@@ -457,5 +457,17 @@
     //   "projectFolder": "tools/my-toolchain",
     //   "reviewCategory": "tools"
     // }
+    {
+      "packageName": "app1",
+      "projectFolder": "apps/app1"
+    },
+    {
+      "packageName": "app2",
+      "projectFolder": "apps/app2"
+    },
+    {
+      "packageName": "app3",
+      "projectFolder": "apps/app3"
+    }
   ]
 }

@@ -1,0 +1,31 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/app1': file:./projects/app1.tgz
+  '@rush-temp/app2': file:./projects/app2.tgz
+  '@rush-temp/app3': file:./projects/app3.tgz
+
+dependencies:
+  '@rush-temp/app1': file:projects/app1.tgz
+  '@rush-temp/app2': file:projects/app2.tgz
+  '@rush-temp/app3': file:projects/app3.tgz
+
+packages:
+
+  file:projects/app1.tgz:
+    resolution: {integrity: sha512-US2DXJMqGkU8LNR/Y6HTnU4+r3+PlTa/D4ZRG/NgOVPVyFU1laHzjBgQWwVvycNmVC9Rztpdpkn/LI3kMH4IbQ==, tarball: file:projects/app1.tgz}
+    name: '@rush-temp/app1'
+    version: 0.0.0
+    dev: false
+
+  file:projects/app2.tgz:
+    resolution: {integrity: sha512-7vgojtG/3ODj4V/mQCu3C4V1pr0QgkvyiCKeEzmqE0oJl+uL7QFJC7L2ur1NQwU3v6AJO5Irl0UTRCZo5+u0/Q==, tarball: file:projects/app2.tgz}
+    name: '@rush-temp/app2'
+    version: 0.0.0
+    dev: false
+
+  file:projects/app3.tgz:
+    resolution: {integrity: sha512-qchrngENeQOFo21GRii0nYO1NBTnMcuFcLeAicC7O9fRD+30bo7zmGJ5t85oj2V3r3SV0PnOyvKxohFKGYIXkw==, tarball: file:projects/app3.tgz}
+    name: '@rush-temp/app3'
+    version: 0.0.0
+    dev: false

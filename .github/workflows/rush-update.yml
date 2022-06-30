@@ -1,7 +1,10 @@
 # This workflow will run rush update and add the result to the pull request
 name: Rush update
-# Trigger the workflow on pull request events
-on: [pull_request]
+# Trigger the workflow on labels added or removed for PRs
+on:
+  pull_request_target:
+    types:
+      - labeled
 jobs:
   rush-update:
     if: contains(github.event.pull_request.labels.*.name, 'dependencies')

@@ -4,35 +4,40 @@ specifiers:
   '@rush-temp/app1': file:./projects/app1.tgz
   '@rush-temp/app2': file:./projects/app2.tgz
   '@rush-temp/app3': file:./projects/app3.tgz
+  lodash: 4.17.21
 
 dependencies:
   '@rush-temp/app1': file:projects/app1.tgz
   '@rush-temp/app2': file:projects/app2.tgz
   '@rush-temp/app3': file:projects/app3.tgz
+  lodash: 4.17.21
 
 packages:
 
-  /lodash/0.1.0:
-    resolution: {integrity: sha512-ufIfwX7g5obXKaJhzbnAJBNf5Idxqty+AHaNadWFxtNKjGmF/ZO8ptSEjQRQRymBPZtLa0NV9sbrsH87Ae2R1A==}
-    engines: {'0': node, '1': rhino}
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
   file:projects/app1.tgz:
-    resolution: {integrity: sha512-azB4w3zlePWATbngHIKhlCgFRxm/nno0eZO3aBCHLCC+yKC1IzG5r0j8mR/pKUObQSfxlIhPuqO+5OlO+Orndg==, tarball: file:projects/app1.tgz}
+    resolution: {integrity: sha512-sD3OfaY23ZgEU9ggnaVuum6hHYapxuWE3MHYmZgoSeT9TG9PuEhgdyF2YQ0rVq+eEULNM41XcRbnQSpZGaM8MQ==, tarball: file:projects/app1.tgz}
     name: '@rush-temp/app1'
     version: 0.0.0
     dependencies:
-      lodash: 0.1.0
+      lodash: 4.17.21
     dev: false
 
   file:projects/app2.tgz:
-    resolution: {integrity: sha512-7vgojtG/3ODj4V/mQCu3C4V1pr0QgkvyiCKeEzmqE0oJl+uL7QFJC7L2ur1NQwU3v6AJO5Irl0UTRCZo5+u0/Q==, tarball: file:projects/app2.tgz}
+    resolution: {integrity: sha512-3btxRlm32kGfkiHcIgPqPzhcyXZfAa/L7xxe2lKQTTt6Jl4U7PdTfJ2PlT4UeRzkzQxF7ikIoh/JKa6aOJ1eag==, tarball: file:projects/app2.tgz}
     name: '@rush-temp/app2'
     version: 0.0.0
+    dependencies:
+      lodash: 4.17.21
     dev: false
 
   file:projects/app3.tgz:
-    resolution: {integrity: sha512-qchrngENeQOFo21GRii0nYO1NBTnMcuFcLeAicC7O9fRD+30bo7zmGJ5t85oj2V3r3SV0PnOyvKxohFKGYIXkw==, tarball: file:projects/app3.tgz}
+    resolution: {integrity: sha512-afY/Z5qoiTH+Yx6MsgjNxRgLPSbVtNYm3T20OyfsvDfe9BAFPfuVtpTFsPfbXAGWwtTkwfiFBW/DwJ41CovPOg==, tarball: file:projects/app3.tgz}
     name: '@rush-temp/app3'
     version: 0.0.0
+    dependencies:
+      lodash: 4.17.21
     dev: false

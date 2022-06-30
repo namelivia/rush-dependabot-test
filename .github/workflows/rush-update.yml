@@ -20,7 +20,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Rush CLI
-        run: npm install -g @microsoft/rush@5.50.0
+        run: npm install -g @microsoft/rush@5.57.1
 
       - name: Install sync script dependencies
         run: cd tools && npm install
@@ -40,4 +40,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           author_name: tk-elbot
           author_email: engineering@travelperk.com
-          message: 'Rush update'
+          message: 'Rush sync & update'

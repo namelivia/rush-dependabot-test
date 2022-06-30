@@ -4,7 +4,7 @@ specifiers:
   '@rush-temp/app1': file:./projects/app1.tgz
   '@rush-temp/app2': file:./projects/app2.tgz
   '@rush-temp/app3': file:./projects/app3.tgz
-  chalk: 0.1.0
+  chalk: 5.0.1
   commander: 0.1.0
   debug: 0.1.0
   lodash: 4.17.21
@@ -13,24 +13,16 @@ dependencies:
   '@rush-temp/app1': file:projects/app1.tgz
   '@rush-temp/app2': file:projects/app2.tgz
   '@rush-temp/app3': file:projects/app3.tgz
-  chalk: 0.1.0
+  chalk: 5.0.1
   commander: 0.1.0
   debug: 0.1.0
   lodash: 4.17.21
 
 packages:
 
-  /ansi-styles/0.1.2:
-    resolution: {integrity: sha512-67aDATkGbpDcNIRjTtfPOGbQUepitKL7Kesl7SS72wV1FLvYEpLYXYFGcWHlhvB18uIoHZAHxmjfsckNMVckNg==}
-    engines: {node: '>=0.8.0'}
-    dev: false
-
-  /chalk/0.1.0:
-    resolution: {integrity: sha512-E1+My+HBCBHA6fBUZlbPnrOMrGKnc3QAXGEvCk/lpEG/ZKowZFg01dXt6RCYJMvTWYgxHWTyZQ6qkCrVPKJ2YQ==}
-    engines: {node: '>=0.8.0'}
-    dependencies:
-      ansi-styles: 0.1.2
-      has-color: 0.1.7
+  /chalk/5.0.1:
+    resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
 
   /commander/0.1.0:
@@ -42,41 +34,36 @@ packages:
     resolution: {integrity: sha512-NLrWdwRTCljTP6KSk3Lg5EL0QKKt9nqfM12NSPXAlvxtCq+w5OEnHkj+8qDgaKFZ3DX3Bp20MwmSBY1lGkkyLA==}
     dev: false
 
-  /has-color/0.1.7:
-    resolution: {integrity: sha512-kaNz5OTAYYmt646Hkqw50/qyxP2vFnTVu5AQ1Zmk22Kk5+4Qx6BpO8+u7IKsML5fOsFk0ZT0AcCJNYwcvaLBvw==}
-    engines: {node: '>=0.10.0'}
-    dev: false
-
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
   file:projects/app1.tgz:
-    resolution: {integrity: sha512-/ZrXSoQQMDSmBD+44WroUqjKfUEWtmn2dQhba1LiJGXxVejEd09H0IKKUNhh/R0lZke7q9SMd67evyYdyOybrQ==, tarball: file:projects/app1.tgz}
+    resolution: {integrity: sha512-Sg7OWVc1jmFtleqenUIpGEFpKiG0hqd3S6GJGtEpoX8RtlzktPeZjNIWgVnXc2duOCh/llZSBJeR/10Q0Gj7PA==, tarball: file:projects/app1.tgz}
     name: '@rush-temp/app1'
     version: 0.0.0
     dependencies:
-      chalk: 0.1.0
+      chalk: 5.0.1
       debug: 0.1.0
       lodash: 4.17.21
     dev: false
 
   file:projects/app2.tgz:
-    resolution: {integrity: sha512-jYr+WkFyKkEsBVuIROP9943EWwCU4G+lEhbufRRd5v0GZhIUvd2amGbNyAC4fl0d6PzGXa20BxOI/JRA2FtMEg==, tarball: file:projects/app2.tgz}
+    resolution: {integrity: sha512-ToTAz+fW9xJ3/mSod4bumm+S10rkMu76ROpuCJcMm9eh5+5D/pqJy08ebRjRUVuK8lS9qikblVyUbSWYsyQMBQ==, tarball: file:projects/app2.tgz}
     name: '@rush-temp/app2'
     version: 0.0.0
     dependencies:
-      chalk: 0.1.0
+      chalk: 5.0.1
       debug: 0.1.0
       lodash: 4.17.21
     dev: false
 
   file:projects/app3.tgz:
-    resolution: {integrity: sha512-5f7RFTJedhaJdpj/45YESp4I086Pkk58V+4TYqb5AOZtj8Iobht7amgVVKFy37cu7U1GMuuvJRP6qiVLfsN0TQ==, tarball: file:projects/app3.tgz}
+    resolution: {integrity: sha512-VCKcvrOUuspXSTzS2x613hp3BnH1v+mFRuR4yVL7b7jQQL7gFW7TlZSRqBH5He6+r+yJN9FfGAqjIWpTgMF4jA==, tarball: file:projects/app3.tgz}
     name: '@rush-temp/app3'
     version: 0.0.0
     dependencies:
-      chalk: 0.1.0
+      chalk: 5.0.1
       commander: 0.1.0
       lodash: 4.17.21
     dev: false

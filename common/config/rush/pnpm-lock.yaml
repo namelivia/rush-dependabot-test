@@ -21,6 +21,11 @@ packages:
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
 
+  /commander/0.1.0:
+    resolution: {integrity: sha512-Co5D0DJGIK+I2RHwGIWOli42dNU3QakxwZAROH1AN0lD32HguSbgrlrfQFxe5fSM6RK3rBQdgsEWMwQIDIjPpA==}
+    engines: {node: 0.4.x}
+    dev: false
+
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
@@ -44,10 +49,11 @@ packages:
     dev: false
 
   file:projects/app3.tgz:
-    resolution: {integrity: sha512-3f5MLhPFlXTcLHTe4LT+ju7GfW4dt48RiHOjFuMd4TKabxjByfiPjWvkVc/v45sEx6QoKYfPfiQ11u+DLWAmmA==, tarball: file:projects/app3.tgz}
+    resolution: {integrity: sha512-VCKcvrOUuspXSTzS2x613hp3BnH1v+mFRuR4yVL7b7jQQL7gFW7TlZSRqBH5He6+r+yJN9FfGAqjIWpTgMF4jA==, tarball: file:projects/app3.tgz}
     name: '@rush-temp/app3'
     version: 0.0.0
     dependencies:
       chalk: 5.0.1
+      commander: 0.1.0
       lodash: 4.17.21
     dev: false

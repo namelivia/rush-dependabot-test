@@ -1,6 +1,0 @@
-{
-  "node": "16.15.1",
-  "packageManager": "pnpm",
-  "packageManagerVersion": "6.7.1",
-  "storePath": "/home/nacho/Projects/rush-dependabot-test/common/temp/pnpm-store"
-}

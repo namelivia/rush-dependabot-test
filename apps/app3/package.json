@@ -2,6 +2,6 @@
   "name": "app3",
   "description": "",
   "version": "0.1.0",
-  "dependencies": {},
+  "dependencies": {"lodash":"0.3.0"},
   "devDependencies": {}
 }

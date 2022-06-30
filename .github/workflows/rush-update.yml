@@ -40,4 +40,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           author_name: tk-elbot
           author_email: engineering@travelperk.com
-          message: 'Rush update'
+          message: 'Rush sync & update'

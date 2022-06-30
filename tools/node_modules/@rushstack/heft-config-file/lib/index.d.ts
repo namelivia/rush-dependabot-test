@@ -1,0 +1,2 @@
+export { ConfigurationFile, IConfigurationFileOptions, ICustomPropertyInheritance, IJsonPathMetadata, IJsonPathsMetadata, InheritanceType, IOriginalValueOptions, IPropertiesInheritance, IPropertyInheritance, PathResolutionMethod, PropertyInheritanceCustomFunction } from './ConfigurationFile';
+//# sourceMappingURL=index.d.ts.map

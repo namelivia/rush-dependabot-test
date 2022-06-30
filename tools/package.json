@@ -1,0 +1,9 @@
+{
+  "name": "sync",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {
+    "@microsoft/rush-lib": "^5.75.0",
+    "semver": "^7.3.7"
+  }
+}

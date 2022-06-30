@@ -1,0 +1,1 @@
+{"version":3,"file":"UnlinkManager.d.ts","sourceRoot":"","sources":["../../src/logic/UnlinkManager.ts"],"names":[],"mappings":"AAOA,OAAO,EAAE,iBAAiB,EAAE,MAAM,0BAA0B,CAAC;AAK7D;;GAEG;AACH,qBAAa,aAAa;IACxB,OAAO,CAAC,kBAAkB,CAAoB;gBAE3B,iBAAiB,EAAE,iBAAiB;IAIvD;;;;;OAKG;IACI,MAAM,CAAC,KAAK,GAAE,OAAe,GAAG,OAAO;IAiB9C;;;;;;SAMK;IACL,OAAO,CAAC,mBAAmB;CAqB5B"}
